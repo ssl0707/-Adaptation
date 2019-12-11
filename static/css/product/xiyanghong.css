@@ -1,0 +1,72 @@
+.com-product-container {
+    margin-top: 0;
+}
+.introduce-title {
+    width: 125px;
+}
+.muke-title {
+    width: 317px;
+}
+.introduce-des{
+    line-height: 30px;
+    letter-spacing: 2px;
+    text-align: justify;
+}
+.introduce-img {
+    display: block;
+    width: 501px;
+    height: 403px;
+    margin: 35px auto 0;
+}
+.muke-wrap{
+    flex-wrap: wrap;
+    margin-bottom: -40px;
+}
+.muke-item {
+    display: flex;
+    margin-bottom: 40px;
+}
+.muke-item {
+    width: 33%
+}
+.muke-item-img {
+    width: 156px;
+    height: 149px;
+}
+.muke-des {
+    margin-bottom: 15px;
+    margin-left: 20px;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+.muke-des:last-child {
+    margin-bottom: 0;
+}
+@media screen and (max-width: 800px){
+    .muke-wrap {
+        flex-wrap: wrap;
+        margin: 0;
+    }
+    .muke-item {
+        width: 100%;
+        margin: 15px auto;
+    }
+    .muke-des {
+        letter-spacing: 0;
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    .muke-item-img {
+        width: 36.8%;
+        height: auto;
+        margin-left: 10.6%;
+    }
+    .introduce-img {
+        width: 62%;
+        height: auto;
+    }
+    .introduce-des {
+        line-height: 20px;
+        letter-spacing: 0;
+    }
+}

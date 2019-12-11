@@ -1,0 +1,167 @@
+/* 解决样式代码冲突 */
+p {
+    margin: 0;
+}
+/* 解决样式代码冲突 end*/
+.longjiang .resource-item {
+    width: 247px;
+    height: 157px;
+}
+.longjiang .resource-a {
+    margin-bottom: 30px;
+    background: url('../../image/share/longjiang/resource-1.png') no-repeat;
+    background-size: 100%;
+}
+.longjiang .resource-b {
+    background: url('../../image/share/longjiang/resource-3.png') no-repeat;
+    background-size: 100%;
+}
+.longjiang .resource-c {
+    margin-bottom: 30px;
+    background: url('../../image/share/longjiang/resource-2.png') no-repeat;
+    background-size: 100%;
+}
+.longjiang .resource-d {
+    background: url('../../image/share/longjiang/resource-4.png') no-repeat;
+    background-size: 100%;
+}
+.longjiang .resource-e {
+    width: 342px;
+    height: 332px;
+}
+.longjiang .activity-item {
+    margin-bottom: 25px;
+}
+.longjiang .activity-img {
+    width: 657px;
+    height: 257px;
+}
+.longjiang .des-title-a {
+    width: 606px;
+    color: #f96521;
+    background: url('../../image/share/longjiang/title-1.png') no-repeat;
+    background-size: 100% 100%;
+}
+.longjiang .des-title-b {
+    width: 362px;
+    color: #8dd708;
+    background: url('../../image/share/longjiang/title-2.png') no-repeat;
+    background-size: auto 100%;
+}
+.longjiang .des-title-c {
+    width: 253px;
+    color: #ec4a4a;
+    background: url('../../image/share/longjiang/title-3.png') no-repeat;
+    background-size: auto 100%;
+}
+.longjiang .des-title-d {
+    width: 253px;
+    color: #3595e9;
+    background: url('../../image/share/longjiang/title-4.png') no-repeat;
+    background-size: auto 100%;
+}
+.longjiang .activity-des-wrap {
+    width: 514px;
+}
+.longjiang .activity-des {
+    margin-top: 20px;
+}
+.longjiang .des-title {
+    height: 52px;
+    text-indent: 60px;
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.longjiang .item-title {
+    line-height: 46px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+}
+.longjiang .item-wrap {
+    flex-wrap: wrap;
+    width: 160px;
+    margin: 15px auto;
+    line-height: 28px;
+}
+.longjiang .item-wrap-spec::after {
+    content: '';
+    flex: auto;
+}
+.longjiang .item-sub {
+    margin: 0 8px;
+}
+.longjiang .item-sub:last-child {
+    margin-left: 18px;
+}
+@media screen and (max-width: 800px) {
+    .longjiang .activity-des-wrap {
+        width: 100%;
+    }
+    .longjiang .activity-des {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .longjiang  .des-title {
+        width: 100%;
+        height: 40px;
+        line-height: 40px;
+        font-size: 14px;
+        text-indent: 42px;
+    }
+    .longjiang .des-title-a {
+        padding: 0 15px;
+        margin: 0 -15px;
+        text-indent: 23px;
+    }
+    .longjiang .activity-item {
+        display: block;
+    }
+    .longjiang .activity-img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .mobi-resource-item {
+        width: 28%;
+    }
+    .longjiang .resource-item {
+        width: 100%;
+        height: 70px
+    }
+    .longjiang .resource-e {
+        width: 40%;
+        height: auto;
+    }
+    .longjiang .item-title {
+        line-height: 18px;
+        font-size: 14px;
+    }
+    .longjiang .item-wrap {
+        width: 105%;
+        line-height: 16px;
+        margin: -2px auto 0;
+        font-size: 12px;
+        transform: scale(0.7);
+    }
+    .longjiang .resource-c,
+    .longjiang .resource-a {
+        margin-bottom: 5px;
+    }
+    .longjiang .item-sub {
+        margin: 0 2px;
+    }
+    .longjiang .item-sub:last-child {
+        margin-left: 11px;
+    }
+}
+@media screen and (min-width: 400px) and (max-width: 800px) {
+    .longjiang .item-sub {
+        margin: 0 5px;
+    }
+    .longjiang .item-wrap {
+        margin: 2px auto 0;
+    }
+}

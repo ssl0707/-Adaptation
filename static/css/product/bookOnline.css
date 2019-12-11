@@ -1,0 +1,95 @@
+.com-product-describe {
+    line-height: 32px;
+}
+.introduce-des {
+    margin-left: -20px;
+}
+.synopsis-title {
+    width: 264px;
+}
+.handwrite-title {
+    width: 344px;
+}
+.bookOnline .text-center {
+    font-size: 18px;
+    letter-spacing: 2px;
+    white-space: nowrap;
+}
+.shape-item-img {
+    width: 244px;
+    height: 250px;
+}
+.shape-item-title {
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.handwrite-wrap {
+    flex-wrap: wrap;
+}
+.handwrite-des {
+    margin-bottom: 30px;
+    line-height: 36px;
+    letter-spacing: 2px;
+    text-align: justify;
+}
+.handwrite-item-title {
+    width: 375px;
+    margin: 20px 0;
+    line-height: 24px;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.handwrite-item-img {
+    width: 375px;
+    height: 239px;
+}
+.handwrite-item:nth-child(4) .handwrite-item-img,
+.handwrite-item:nth-child(5) .handwrite-item-img {
+    width: 581px;
+    height: 276px;
+}
+
+@media screen and (max-width: 800px){
+    .com-product-synopsis {
+        flex-wrap: wrap;
+    }
+    .shape-wrap {
+        flex-wrap: wrap;
+    }
+    .shape-item {
+        width: 45%;
+    }
+    .shape-item-img {
+        width: 100%;
+        height: auto;
+    }
+    .handwrite-item {
+        width: 100%;
+    }
+    .handwrite-item-title {
+        width: 100%;
+    }
+    .bookOnline .introduce-des {
+        margin: 15px 0 0;
+        text-align: justify;
+        white-space: inherit;
+    }
+    .shape-item-title {
+        font-size: 14px;
+    }
+    .handwrite-item-img,
+    .handwrite-item:nth-child(4) .handwrite-item-img,
+    .handwrite-item:nth-child(5) .handwrite-item-img {
+        width: 100%;
+        height: auto;
+    }
+    .handwrite-des,
+    .com-product-describe,
+    .bookOnline .introduce-des,
+    .bookOnline .handwrite-item-title {
+        line-height: 20px;
+        font-size: 12px;
+        letter-spacing: 0;
+    }
+}

@@ -1,0 +1,346 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html body {
+  font-size: 16px;
+}
+
+html {
+  /* width: 100%; */
+  /* height: 100%; */
+}
+
+body {
+  /* width: 100%; */
+  /* height: 100%; */
+  color: #333;
+}
+
+li,
+a {
+  list-style: none;
+  text-decoration: none;
+  color: #333;
+}
+
+h1,
+h2 {
+  font-weight: normal;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+  /* height: 100%; */
+  height: auto;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* flex-space-around 公用样式 */
+.flex-space-around {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* flex-space-between 公用样式 */
+.flex-space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* flex-space-center 公用样式 */
+.flex-space-center {
+  display: flex;
+  justify-content: center;
+}
+
+/* 共享工程--项目介绍公共样式 */
+.com-share-container {
+  width: 1200px;
+  margin: 50px auto 20px;
+}
+
+.com-share a:hover,
+.com-share a:focus {
+  color: #fff;
+  text-decoration: none;
+  outline-style: none;
+}
+
+.com-share .introduce {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.com-share .introduce-des {
+  position: relative;
+  height: 357px;
+}
+
+.com-share .introduce-des:nth-child(1) {
+  text-align: left;
+}
+
+.com-share .des-text {
+  width: 590px;
+  line-height: 36px;
+  margin-top: 25px;
+  text-align: justify;
+  letter-spacing: 2px;
+  color: #333;
+}
+
+.com-share-link {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 90px;
+  height: 35px;
+  line-height: 35px;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 1px;
+  background: url('../../../static/image/share/link.png') no-repeat;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.com-share-link:hover,
+.com-share-link:focus {
+  color: #fff;
+  text-decoration: none;
+  outline-style: none;
+}
+
+.com-share .introduce-img {
+  width: 585px;
+  /* height: 357px; */
+}
+
+.com-share .share-title {
+  width: 123px;
+  margin: 50px 0 35px;
+}
+
+.com-share .activity-des {
+  font-size: 12px;
+  text-align: justify;
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+
+.com-share .introduce .margin0 {
+  margin: 0;
+}
+
+/* 共享工程--活动模块公用样式 */
+.com-activity-wrap {
+  margin-bottom: 50px;
+}
+
+/* 产品页公用样式一 */
+.com-product-container {
+  width: 1200px;
+  margin: 50px auto;
+}
+
+.com-product-synopsis {
+  display: flex;
+  justify-content: space-between;
+}
+
+.com-product-topimg {
+  width: 605px;
+}
+
+.com-product-describe {
+  width: 562px;
+  font-size: 14px;
+  line-height: 36px;
+  letter-spacing: 2px;
+  text-align: justify;
+}
+
+.com-product-title {
+  margin: 50px 0 30px;
+}
+
+.com-mobi-link {
+  display: none;
+  width: 90px;
+  height: 35px;
+  line-height: 35px;
+  margin: 10px auto;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 1px;
+  background: url('../../../static/image/share/link.png') no-repeat;
+  cursor: pointer;
+}
+
+.com-mobi-link:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.com-pc-link {
+  display: block;
+}
+
+.banner {
+  min-width: 1200px;
+}
+
+/* 进入官网公用样式 */
+.com-to-net {
+  display: block;
+  width: 109px;
+  height: 34px;
+  margin: 40px auto;
+  line-height: 34px;
+  color: #3a6fb7;
+  border: 1px solid #3a6fb7;
+  border-radius: 5px;
+  letter-spacing: 2px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.com-mobi-showimg {
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    width: 100%;
+    background-color: #fff;
+  }
+
+  .banner {
+    min-width: 100%;
+  }
+
+  .com-product-title {
+    margin: 15px auto 12px;
+  }
+
+  .com-share .share-title {
+    margin: 15px 0 10px;
+  }
+
+  .com-product-container {
+    width: 100%;
+    padding: 0 15px;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  .com-product-topimg {
+    width: 100%;
+  }
+
+  .com-product-describe {
+    width: 100%;
+    line-height: 20px;
+    font-size: 12px;
+    letter-spacing: 0;
+  }
+
+  .com-product-synopsis {
+    display: block;
+  }
+
+  .com-share-container {
+    width: 100%;
+    padding: 0 15px;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  .com-share .des-text {
+    width: 100%;
+    line-height: 20px;
+    margin-top: 0;
+    font-size: 12px;
+    letter-spacing: normal;
+  }
+
+  .com-share .introduce {
+    flex-wrap: wrap;
+    margin: 0;
+  }
+
+  .com-share .introduce-img {
+    width: 100%;
+    height: auto;
+  }
+
+  .com-mobi-link {
+    display: block;
+  }
+
+  .com-mobi-showimg {
+    display: block;
+  }
+
+  .com-pc-showimg {
+    display: none;
+  }
+
+  .com-share .introduce-des {
+    height: auto;
+  }
+
+  .com-pc-link {
+    display: none;
+  }
+
+  .com-margin-top15 {
+    margin-top: 15px;
+  }
+
+  .com-margin-bottom15 {
+    margin-bottom: 15px;
+  }
+
+  .com-mobi-scale {
+    transform: scale(0.7);
+    text-align: center;
+  }
+
+  .mobile .com-mobi-text {
+    line-height: 20px;
+    font-size: 12px;
+    letter-spacing: 0;
+  }
+
+  .com-activity-wrap {
+    margin-bottom: 0;
+  }
+
+  .com-to-net {
+    margin: 10px auto 20px;
+  }
+}

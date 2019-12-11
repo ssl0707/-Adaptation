@@ -1,0 +1,141 @@
+/* 解决样式代码冲突 */
+p {
+    margin: 0;
+}
+/* 解决样式代码冲突 end*/
+.culture {
+    width: 100%;
+}
+.com-product-describe {
+    margin-top: 42px;
+}
+.resource-title {
+    width: 223px;
+}
+.resource-item-title {
+    padding-left: 60px;
+    margin-bottom: 18px;
+    color: #b60408;
+    font-weight: bold;
+    letter-spacing: 2px;
+    background: url('../../image/product/culture/resource-title.png') no-repeat;
+}
+.resource-des {
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 2px;
+}
+.resource-img-a {
+    width: 180px;
+    height: 160px;
+    background: url('../../image/product/culture/resource-a.png') no-repeat;
+}
+.resource-img-b {
+    width: 173px;
+    height: 135px;
+    margin-right: 20px;
+}
+.resource-img-c {
+    width: 173px;
+    height: 135px;
+}
+.resource-des-a {
+    width: 240px;
+}
+.resource-des-b {
+    width: 270px;
+}
+.function-describe {
+    margin-bottom: 20px;
+    line-height: 24px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-align: justify;
+}
+.function-item {
+    width: 209px;
+    height: 219px;
+    padding: 15px;
+    box-sizing: border-box;
+    background: url('../../image/product/culture/fun-bg.png') no-repeat;
+    background-size: 100% 100%;
+}
+.function-item-title {
+    width: 177px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    background: url('../../image/product/culture/title-bg.png') no-repeat;
+}
+.function-item-des {
+    margin-top: 16px;
+    line-height: 20px;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.resource-img-wrap {
+    display: flex;
+    justify-content: space-around;
+}
+@media screen and (max-width: 800px) {
+    .resource-title {
+        transform: scale(0.7);
+    }
+    .com-product-describe {
+        margin-top: 0;
+    }
+    .resource-item {
+        display: block;
+    }
+    .flex-space-around {
+        flex-wrap: wrap;
+    }
+    .function-wrap {
+        justify-content: space-between;
+    }
+    .function-item {
+        width: 49%;
+        margin: 5px 0;
+        padding: 8px;
+    }
+    .function-item-des {
+        letter-spacing: 0px;
+        line-height: 18px;
+    }
+    .function-item-title {
+        width: 95%;
+        margin: 10px auto 0;
+    }
+    .resource-des{
+        margin: 5px 0;
+        line-height: 20px;
+        letter-spacing: normal;
+    }
+    .resource-img-a {
+        margin: 5px auto;
+        letter-spacing: 0;
+    }
+    .resource-img-b,
+    .resource-img-c {
+        width: 48%;
+        height: auto;
+        margin: 0;
+    }
+    .mobi-sub-item {
+        display: flex;
+        justify-content: center;
+    }
+    .resource-item-title {
+        width: 33%;
+        padding: 0;
+        background: url('../../image/product/culture/resource-title.png') no-repeat right 10px top 10px;
+    }
+    .function-describe {
+        font-size: 12px;
+        line-height: 20px;
+        letter-spacing: 0;
+    }
+}

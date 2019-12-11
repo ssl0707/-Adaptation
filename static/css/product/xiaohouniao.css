@@ -1,0 +1,286 @@
+.resource-title {
+  width: 185px;
+}
+
+.resource-box {
+  width: 1202px;
+  height: 500px;
+}
+
+.resource-box li {
+  padding: 6px 0;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.resource-src {
+  height: 100px;
+}
+
+.resource-box li .resource-bg {
+  position: relative;
+  float: left;
+  width: 100px;
+  margin-right: 20px;
+}
+
+
+.resource-box li .resource-bg img {
+  margin: 7px 0 0 -12px;
+  width: 100px;
+  height: 38px;
+}
+
+.resource-head {
+  position: absolute;
+  left: 8px;
+  top: 6px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.resource-box li span {
+  margin: 8px 14px;
+  display: inline-block;
+  border-radius: 20px;
+  width: 86px;
+  line-height: 28px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.resource-box .education {
+  border: 1px solid #1eb9ee;
+}
+
+.resource-box .story {
+  border: 1px solid #7dc26e;
+}
+
+.resource-box .develop {
+  border: 1px solid #ea534b;
+}
+
+.resource-box .book {
+  border: 1px solid #f18a48;
+}
+
+.resource-box .read {
+  border: 1px solid #f14878;
+}
+
+.resource-box .education span {
+  color: #1eb9ee;
+  border: 2px solid #1eb9ee;
+}
+
+.resource-box .story span {
+  color: #7dc26e;
+  border: 2px solid #7dc26e;
+}
+
+.resource-box .develop span {
+  color: #ea534b;
+  border: 2px solid #ea534b;
+}
+
+.resource-box .book span {
+  color: #f18a48;
+  border: 2px solid #f18a48;
+}
+
+.resource-box .read span {
+  color: #f14878;
+  border: 2px solid #f14878;
+}
+
+.shape-title {
+  margin-right: 12px;
+  font-size: 24px;
+  line-height: 140px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+.product-pc {
+  width: 254px;
+  height: 204px;
+  margin: 0 17px;
+  background: url('../../image/product/xiaohouniao/xingtai-pc.png') no-repeat;
+}
+
+.product-wap,
+.product-app {
+  width: 103px;
+  height: 212px;
+  margin: 0 17px;
+}
+
+.product-wap-a {
+  background: url('../../image/product/xiaohouniao/xingtai-wap-a.png') no-repeat;
+}
+
+.product-wap-b {
+  background: url('../../image/product/xiaohouniao/xingtai-wap-b.png') no-repeat;
+}
+
+.product-app-a {
+  background: url('../../image/product/xiaohouniao/xingtai-app-a.png') no-repeat;
+}
+
+.product-app-b {
+  background: url('../../image/product/xiaohouniao/xingtai-app-b.png') no-repeat;
+}
+
+.superiority-bg {
+  position: relative;
+  width: 320px;
+  height: 320px;
+  margin: 0 auto;
+  background: url('../../image/product/xiaohouniao/youshi.png') no-repeat;
+}
+
+.superiority-item {
+  position: absolute;
+  width: 402px;
+  line-height: 24px;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-align: justify;
+}
+
+.superiority-item-a {
+  top: 50px;
+  left: -440px;
+  width: 432px;
+}
+
+.superiority-item-b {
+  top: 0;
+  right: -420px;
+}
+
+.superiority-item-c {
+  top: 170px;
+  left: -420px;
+}
+
+.superiority-item-d {
+  bottom: 26px;
+  right: -420px;
+}
+
+.superiority-item .item-title {
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.superiority-item-a .item-title {
+  color: #d5a00c;
+  text-align: right;
+}
+
+.superiority-item-b .item-title {
+  color: #87c914;
+}
+
+.superiority-item-c .item-title {
+  color: #de6114;
+  text-align: right;
+}
+
+.superiority-item-d .item-title {
+  color: #13a3e4;
+}
+
+.shape .text-center .resource-title {
+  margin: 30px auto 50px;
+}
+
+@media screen and (max-width: 800px) {
+  .resource-title {
+    transform: scale(0.7);
+  }
+
+  .resource-box {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+  }
+
+  .resource-src {
+    height: auto;
+  }
+
+  .resource-box li {
+    width: 100%;
+    margin: 20px 0;
+    padding: 0 4%;
+  }
+
+  .resource-box li span {
+    margin: 8px 12px;
+    display: inline-block;
+    border-radius: 20px;
+    width: 24%;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    font-size: 12px;
+    border: 1px;
+  }
+
+  .resource-box li .resource-bg {
+    position: relative;
+    float: left;
+    width: 100%;
+  }
+
+  .shape-wrap {
+    flex-wrap: wrap;
+  }
+
+  .shape-item {
+    display: block;
+    width: 100%;
+  }
+
+  .superiority-bg {
+    width: 100%;
+    height: auto;
+    background: none;
+  }
+
+  .superiority-item {
+    position: static;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .superiority-item .item-title {
+    text-align: left;
+    margin-bottom: 5px;
+  }
+
+  .shape-title {
+    line-height: 50px;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .product-pc {
+    margin: 0 auto;
+  }
+
+  .shape .text-center .resource-title {
+    margin: 0;
+  }
+
+  .superiority-des {
+    letter-spacing: 0;
+    line-height: 20px;
+  }
+}

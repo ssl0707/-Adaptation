@@ -1,0 +1,222 @@
+.sharelist {
+  background-color: #e8e8e8;
+}
+
+.sharelist .pc-banner {
+  width: 100%;
+  height: auto;
+}
+
+.sharelist .model-banner {
+  display: none;
+}
+
+.sharelist .nav-wrap {
+  background-color: #fff;
+}
+
+.sharelist .nav {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 42px 0;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.sharelist .nav li {
+  color: #888;
+}
+
+.sharelist .nav .active {
+  color: #3a6fb7;
+  cursor: pointer;
+}
+
+.sharelist .content {
+  flex-wrap: wrap;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 35px 0;
+}
+
+.sharelist .content:after {
+  content: ' ';
+  /* 这个宽度和子元素宽度一致 */
+  width: 31%;
+  height: 0;
+  display: block;
+}
+
+.sharelist .item {
+  position: relative;
+  width: 375px;
+  padding: 25px;
+  margin: 16px 0;
+  box-sizing: border-box;
+  background-color: #fff;
+  text-align: center;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.sharelist .item-title {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  transition: all 0.5s;
+  margin: 0 0 20px 0;
+}
+
+.sharelist .item-des {
+  width: 100%;
+  margin-bottom: 30px;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  text-align: justify;
+}
+
+.item-img-wrap {
+  position: relative;
+  height: 120px;
+}
+
+.sharelist .item-img {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: scale(1) translateX(-50%);
+  transition: all 0.5s;
+}
+
+.sharelist .item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px #6a82a3;
+}
+
+.sharelist .item:hover .item-title {
+  transform: scale(1.3);
+  color: #6a82a3;
+}
+
+.sharelist .item:hover .item-img {
+  transform: translateX(-50%) scale(1.2);
+}
+
+.sharelist .item .item-title:hover {
+  color: orange;
+  text-shadow: 0 0 5px #ccc;
+}
+
+.sharelist .detail {
+  position: absolute;
+  right: 25px;
+  bottom: 24px;
+  width: 66px;
+  height: 25px;
+  line-height: 25px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 12px;
+  border: 1px solid #0d1122;
+  color: #0d1122;
+  cursor: pointer;
+}
+
+.nav::before,
+.nav::after {
+  display: none;
+  content: "";
+}
+
+@media screen and (max-width: 800px) {
+  .sharelist .pc-banner {
+    display: none;
+  }
+
+  .sharelist .model-banner {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .sharelist .nav {
+    display: block;
+    width: 100%;
+    padding: 15px 0 0;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    background-color: #e8e8e8;
+    font-size: 14px;
+  }
+
+  .sharelist .nav::-webkit-scrollbar {
+    display: none;
+  }
+
+  .nav-item {
+    display: inline-block;
+    margin: 0 15px;
+  }
+
+  .sharelist .content {
+    width: 100%;
+    padding: 0 15px;
+    box-sizing: border-box;
+  }
+
+  .sharelist .item {
+    width: 49%;
+    padding: 12px;
+    margin: 13px 0;
+  }
+
+  .item-img-wrap {
+    height: 55px;
+  }
+
+  .sharelist .item-title {
+    margin: 12px 0;
+    font-size: 14px;
+  }
+
+  .sharelist .item-des {
+    margin-bottom: 45px;
+    line-height: 16px;
+    letter-spacing: normal;
+  }
+
+  .sharelist .detail {
+    bottom: 20px;
+  }
+
+  .sharelist .item-img {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    /* transform: scale(0.7) translateX(-50%); */
+    transform: scale(0.7);
+    /* transform-origin: 0 0; */
+    /* transform-origin: 7vw 0; */
+  }
+
+  /* 移动端清除hover效果 */
+  .sharelist .item:hover {
+    transform: none;
+    box-shadow: none;
+  }
+
+  .sharelist .item:hover .item-title {
+    transform: none;
+    color: #333;
+  }
+
+  .sharelist .item:hover .item-img {
+    transform: scale(0.7);
+  }
+
+  .sharelist .item .item-title:hover {
+    text-shadow: none;
+  }
+}

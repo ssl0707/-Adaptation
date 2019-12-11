@@ -1,0 +1,112 @@
+/* 解决样式代码冲突 */
+p {
+    margin: 0;
+}
+.ningxiajzfp .resource-icon {
+    width: 62px;
+    height: 62px;
+    margin: 0 auto 14px;
+}
+.ningxiajzfp .resource-nav {
+    flex-wrap: wrap;
+}
+.ningxiajzfp .nav-item {
+    margin: 20px 100px;
+}
+.ningxiajzfp .activity-img {
+    width: 388px;
+    height: 246px;
+    margin: 0 5px;
+}
+.ningxiajzfp .activity-show {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.ningxiajzfp .activity-sub-title {
+    margin-bottom: 26px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.ningxiajzfp .activity-show .activity-des {
+    margin: 18px 0;
+    font-size: 16px;
+    text-align: center;
+}
+.ningxiajzfp .news-wrap {
+    flex-wrap: wrap;
+}
+.ningxiajzfp .news-img {
+    width: 394px;
+    height: 433px;
+    margin: 10px 0;
+}
+.ningxiajzfp .media-title,
+.ningxiajzfp .media-content {
+    letter-spacing: 2px;
+    line-height: 36px;
+    font-weight: bold;
+}
+.ningxiajzfp .media {
+    text-align: justify;
+    margin: 20px 0;
+}
+.ningxiajzfp .media-title {
+    font-size: 20px;
+}
+@media screen and (max-width: 800px){
+    .ningxiajzfp .resource-icon {
+        width: 12vw;
+        height: 12vw;
+        margin: 7px auto;
+    }
+    .ningxiajzfp .des-text {
+        margin: 0;
+    }
+    .com-share .introduce-des {
+        height: auto;
+    }
+    .link {
+        display: none;
+    }
+    .ningxiajzfp .nav-item {
+        width: 25%;
+        margin: 0;
+        font-size: 14px;
+    }
+    .ningxiajzfp .activity-show {
+        justify-content: space-between;
+    }
+    .ningxiajzfp .activity-item {
+        width: 49%;
+        height: auto;
+    }
+    .ningxiajzfp .activity-img {
+        width: 100%;
+        height: auto;
+    }
+    .ningxiajzfp .media-content {
+        font-size: 12px;
+        line-height: 20px;
+        font-weight: normal;
+        letter-spacing: normal;
+    }
+    .ningxiajzfp .news-img {
+        display: block;
+        width: 49%;
+        height: auto;
+    }
+    .ningxiajzfp .activity-show .activity-des {
+        font-size: 12px;
+        letter-spacing: 0;
+        line-height: 20px;
+        margin: 0 0 8px 0;
+    }
+    .com-activity-wrap {
+        margin: 0;
+    }
+    .ningxiajzfp .media-title {
+        font-size: 14px;
+    }
+}

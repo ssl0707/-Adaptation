@@ -1,0 +1,94 @@
+.introduce-title {
+    width: 125px;
+    margin-bottom: 25px;
+}
+.made-title{
+    width: 227px;
+}
+.intelligence .introduce-des-top{
+    font-size: 16px;
+    margin-bottom: 40px;
+    margin-top: -10px;
+}
+.introduce-img {
+    width: 1200px;
+    margin: 30px auto 35px;
+}
+.introduce-img-b {
+    margin-top: 0;
+}
+.intelligence .made-sub-title{
+    margin-bottom: 25px;
+    font-size: 14px;
+    font-weight: normal;
+}
+.made-wrap {
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.made-item {
+    width: 174px;
+    height: 61px;
+    line-height: 61px;
+    margin: 10px 60px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-align: center;
+    font-weight: bold;
+    background: url('../../image/product/intelligence/made-bg.png') no-repeat;
+    background-size: 100% 100%;
+}
+.com-font-intelligence {
+    line-height: 36px;
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.com-font-red {
+    color: #ff0000;
+}
+@media screen and (max-width: 800px){
+    .intelligence .introduce-des-top{
+        font-weight: normal;
+    }
+    .introduce-title {
+        margin: 14px 0 0;
+    }
+    .made-title {
+        margin: 14px 0 0 0;
+    }
+    .introduce-img {
+        width: 100%;
+        margin: 0;
+    }
+    .intelligence .made-wrap:after {
+        content:' ';
+        /* 这个宽度和子元素宽度一致 */
+        width:23%; 
+        height:0;
+        display:block;
+    }
+    .made-item {
+        width: 30%;
+        height: 40px;
+        line-height: 40px;
+        margin: 5px;
+        font-size: 12px;
+        letter-spacing: 0px;
+    }
+    .made-item:nth-child(7) {
+        width: 30%;
+    }
+    .made-item:nth-child(8) {
+        width: 40%;
+    }
+    .intelligence  .com-font-intelligence {
+        text-align: justify;
+        font-size: 12px;
+        line-height: 18px;
+        margin: 0 0 15px;
+    }
+    .intelligence .made-sub-title {
+        text-align: center;
+    }
+}

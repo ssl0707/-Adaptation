@@ -1,0 +1,93 @@
+.anhui .resource-item {
+    width: 175px;
+    height: 180px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+.anhui .activity {
+    width: 600px;
+    height: 258px;
+}
+.anhui .activity-item {
+    padding-bottom: 12px;
+    margin-bottom: 12px;
+    border-bottom: 1px solid #a0a0a0;
+}
+.anhui .activity-item:last-child {
+    border-bottom: none;
+}
+.anhui .activity_des {
+    width: 568px;
+}
+.anhui .activity-title {
+    margin: 28px 0;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: left;
+}
+.item-title {
+    line-height: 36px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+}
+.item-content {
+    margin: 40px 20px;
+}
+.item-content-flex {
+    flex-wrap: wrap;
+    width: 125px;
+    margin: 0 20px 0;
+}
+.anhui .item-content-flex:after {
+    content: '';
+    flex: auto;
+}
+.content-text-flex {
+    margin: 10px 0 0 0;
+}
+.content-text {
+    width: 100%;
+    margin: 10px 30px 0 30px;
+}
+.content-text:first-child {
+    margin-top: 40px;
+}
+@media screen and (max-width: 800px){
+    .activity-des {
+        width: 100%;
+        line-height: 20px;
+        font-size: 12px;
+    }
+    .resource {
+        flex-wrap: wrap;
+    }
+    .anhui .resource-item {
+        width: 165px;
+        transform: scale(0.9);
+    }
+    .anhui .activity-title {
+        margin: 10px 0;
+        font-size: 14px;
+        letter-spacing: normal;
+    }
+    .anhui .activity-item {
+        display: block;
+        border-bottom: none;
+    }
+    .anhui .activity,
+    .anhui .activity_des {
+        width: 100%;
+        height: auto;
+    }
+    .item-title {
+        font-size: 14px;
+    }
+    .item-content {
+        font-size: 12px;
+    }
+    .item-content-flex {
+        margin: 0 14px 0;
+    }
+}

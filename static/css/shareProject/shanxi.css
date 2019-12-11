@@ -1,0 +1,82 @@
+.shanxi .resource-icon {
+  width: 98px;
+  height: 75px;
+  margin-bottom: 15px;
+}
+
+.shanxi .activity-item {
+  margin-bottom: 25px;
+}
+
+.shanxi .activity-item-img {
+  width: 657px;
+  /* height: 257px; */
+}
+
+.shanxi .activity-item-title {
+  width: 257px;
+  height: 36px;
+  line-height: 34px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.shanxi .item-title-a {
+  background: url('../../image/share/shanxi/activity-1.png') no-repeat;
+  background-size: 100% 100%;
+}
+
+.shanxi .item-title-b {
+  background: url('../../image/share/shanxi/activity-2.png') no-repeat;
+  background-size: 100% 100%;
+}
+
+.shanxi .item-title-c {
+  background: url('../../image/share/shanxi/activity-3.png') no-repeat;
+  background-size: 100% 100%;
+}
+
+.shanxi .activity-item-des {
+  width: 510px;
+  margin-top: 20px;
+  line-height: 30px;
+  font-size: 12px;
+  text-align: justify;
+  letter-spacing: 1px;
+}
+
+@media screen and (max-width: 800px) {
+
+  .shanxi .resource-content {
+    flex-wrap: wrap;
+  }
+
+  .shanxi .activity-item-title {
+    width: 50%;
+    height: 25px;
+    line-height: 25px;
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+
+  .shanxi .activity-item-des {
+    width: 100%;
+    margin-top: 15px;
+    line-height: 20px;
+  }
+
+  .shanxi .activity-item {
+    flex-wrap: wrap;
+  }
+
+  .shanxi .activity-item-img {
+    width: 100%;
+    height: auto;
+  }
+
+  .shanxi .des-text {
+    margin: 0;
+  }
+}

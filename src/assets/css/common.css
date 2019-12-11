@@ -1,0 +1,120 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  color: #333;
+}
+
+li,
+a {
+  list-style: none;
+  text-decoration: none;
+  color: #333;
+}
+
+h1,
+h2 {
+  font-weight: normal;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+
+/*公共头部 尾部*/
+
+#app {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.mb30 {
+  margin-bottom: 30px;
+  box-sizing: border-box;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.loading {
+  width: 100%;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.com_eye {
+  width: 20px;
+  margin-right: 7px;
+}
+
+.midd * {
+  vertical-align: middle;
+}
+
+.home-container {
+  width: 100%;
+  height: 100%;
+  font-size: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  height: 100% !important;
+}
+
+.swiper-pagination :global(.swiper-pagination-bullet) {
+  background: #999 !important;
+  opacity: 0.3 !important;
+}
+
+.swiper-pagination :global(.my-bullet-active) {
+  background: #007aff !important;
+  opacity: 1 !important;
+}

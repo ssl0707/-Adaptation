@@ -1,0 +1,80 @@
+.ningxiassjn .resource-img {
+    position: relative;
+    width: 464px;
+    height: 465px;
+    margin: 25px auto;
+    background: url('../../image/share/ningxiassjn/resource-img.png') no-repeat;
+}
+.resource-des {
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+}
+.resource-des-a {
+    top: -35px;
+    left: 195px;
+}
+.resource-des-b {
+    top: 85px;
+    right: -40px;
+}
+.resource-des-c {
+    top: 225px;
+    right: -90px;
+}
+.resource-des-d {
+    top: 375px;
+    right: -35px;
+}
+.resource-des-e {
+    bottom: -35px;
+    left: 195px;
+}
+.resource-des-f {
+    top: 375px;
+    left: -30px;
+}
+.resource-des-g {
+    top: 225px;
+    left: -75px;
+}
+.resource-des-h {
+    top: 85px;
+    left: -25px;
+}
+.ningxiassjn .activity-wrap {
+    flex-wrap: wrap;
+}
+.ningxiassjn .activity-item-title {
+    margin: 20px 0;
+    font-size: 14px;
+}
+.ningxiassjn .activity-item-img {
+    width: 582px;
+    height: 266px;
+}
+
+@media screen and (max-width: 800px) {
+    .ningxiassjn .resource-img {
+        left: 50%;
+        margin: 25px 0;
+        transform: scale(0.5) translate(-50%);
+        transform-origin: 0 0;
+    }
+    .ningxiassjn .activity-item-img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 15px;
+    }
+    .mobi-resource {
+        height: 91vw;
+    }
+    .ningxiassjn .activity-item-title {
+        margin: 0 0 10px;
+    }
+}
+@media screen and (min-width: 400px) and (max-width: 800px) {
+    .mobi-resource {
+        height: 46vh;
+    }
+}
